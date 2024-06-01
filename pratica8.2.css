@@ -1,0 +1,27 @@
+
+.columna {
+    float: left;
+    width: 40%;
+    padding-right: 50px;
+}
+
+.fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body {
+background-image:url('foto.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+font-family: Arial, sans-serif;
+align-items: center;
+}
+
+img {
+    border-radius: 50;
+    width: 50%;
+    
+}
+
+
